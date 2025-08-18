@@ -11,6 +11,6 @@ public class Jukebox8 {
         songs.sort((one, two)->one.getTitle().compareTo(two.getTitle()));
         System.out.println(songs);
         Set<SongV3> songsSet = new HashSet<SongV3>(songs);
-        System.out.println("Songs: " + songsSet);
+        System.out.println("Streams.Songs: " + songsSet);
     }
 }
